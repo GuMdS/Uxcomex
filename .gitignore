@@ -1,0 +1,100 @@
+# Visual Studio e arquivos de build
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.cache
+*.ide
+
+# Build Results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]ssets/**/bin/
+[Aa]ssets/**/obj/
+*.dll
+*.exe
+*.pdb
+*.app
+*.ipa
+*.js.map
+*.log
+
+# Configurações de publicação
+*.publishsettings
+*.pubxml
+*.pubxml.user
+
+# Pacotes e dependências
+packages/
+node_modules/
+project.lock.json
+project.fragment.lock.json
+
+# Logs e arquivos temporários
+*.log
+*.tlog
+*.tmp
+*.swp
+*.sln.docstates
+
+# Restrições de platform
+.ncrunch
+.ncrunchsolution
+*.coverage
+*.coveragexml
+*.testsettings
+*.vspscc
+_ReSharper.
+
+# Diretórios específicos do ASP.NET
+App_Data/
+App_Start/
+bin/
+obj/
+temp/
+TestResults/
+
+# Arquivos de banco de dados
+*.mdf
+*.ldf
+*.sql
+*.sqlite
+
+# Configuração de usuário local
+*.config
+*.settings
+*.userprefs
+*.csproj.user
+
+# Arquivos de cache e backup
+*.bak
+*.bkp
+*.cache
+*.csproj.old
+*.tmp
+*.log
+*.swp
+*.swo
+~*
+
+# Arquivos gerados pelo NuGet
+project.lock.json
+project.fragment.lock.json
+*.nupkg
+*.snupkg
+artifacts/
+
+# Arquivos gerados pelo Rider
+.idea/
+*.DotSettings.user
+
+# Certificados locais
+*.pfx
+*.p12
+
+# Docker
+Dockerfile
+*.dockerignore
