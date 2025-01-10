@@ -20,3 +20,42 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+/* Estilização para o botão */
+a.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff; /* Azul padrão */
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    /* Efeito hover para o botão */
+    a.button:hover {
+        background-color: #0056b3; /* Azul mais escuro */
+    }
+
+/* Estilização geral da tabela */
+table.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+    table.table th,
+    table.table td {
+        border: 1px solid #ddd;
+        padding: 8px;
+    }
+
+    table.table th {
+        background-color: #f4f4f4;
+        text-align: left;
+    }
+
